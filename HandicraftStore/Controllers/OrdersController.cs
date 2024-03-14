@@ -14,12 +14,7 @@ namespace HandicraftStore.Controllers
         private readonly IOrders _txn;
         private readonly IProduct _prod;
         private readonly IWebHostEnvironment webHostEnvironment;
-        //public TransactionController(ITransaction txn, IWebHostEnvironment webHost)
-        //{
-        //    webHostEnvironment = webHost;
-        //    _txn = txn;
-           
-        //}
+      
         public OrdersController(IOrders txn, IProduct product, IWebHostEnvironment webHost)
         {
             webHostEnvironment = webHost;
