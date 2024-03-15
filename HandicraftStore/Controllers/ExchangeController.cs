@@ -14,7 +14,7 @@ namespace HandicraftStore.Controllers
     public class ExchangeController : Controller
     {
         private readonly ApplicationDbContext _context;
-        //test
+        //testhkhi
         public ExchangeController(ApplicationDbContext context)
         {
             _context = context;
